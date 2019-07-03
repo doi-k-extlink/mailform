@@ -123,9 +123,9 @@ $(function() {
 $contents = array("項目1","項目2","項目3","項目4","項目5","項目6");
 
 	foreach ( (array)$contents as $key => $val) {
-		
+
 ?>
-	<label><input type="checkbox" name="item[<?=$key?>]" value="<?=$val?>"><?=$val?></label>
+	<label><input type="checkbox" name="item[]" value="<?=$val?>"><?=$val?></label>
 	<?php } ?>
 </td>
 </tr>
@@ -148,8 +148,8 @@ $contents = array("項目1","項目2","項目3","項目4","項目5","項目6");
 
 
 <tr>
-<th><label for="msg">お問い合わせ内容<em>必須</em></label></th>
-<td><textarea name="msg" class="txtfiled validate[required]"></textarea></td>
+<th><label for="msg">お問い合わせ内容</label></th>
+<td><textarea name="msg" class="txtfiled"></textarea></td>
 </tr>
 
 </table>
