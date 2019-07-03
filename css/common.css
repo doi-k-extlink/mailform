@@ -1,0 +1,317 @@
+@charset "utf-8";
+/*-----------------------------------------------------------
+全体スタイル
+-----------------------------------------------------------*/
+
+body {
+	overflow-x: hidden;
+	background: #FFFFFFs
+	color: #333333;
+	font-size: 16px;/* 文字サイズ計算＝【基本サイズ ÷ 表示したいサイズ * 100 （小数点以下切り上げ） */
+	line-height: 1.6;
+}
+
+
+/* お問い合わせ
+----------------------------------------------------------- */
+
+input[type="checkbox"],
+input[type="radio"] {
+	vertical-align: middle;
+}
+
+/*--- フォームテーブル ---*/
+
+.contact_tb {
+	width: 1000px;
+	margin: 70px auto 30px;
+	/* background-color: #5DC1CF; */
+}
+
+.contact_tb tr th {
+	width: 280px;
+	text-align: left;
+	padding: 5px 12px 5px 12px;
+	position: relative;
+	/* background-color: #5DC1CF; */
+	font-weight: normal;
+	color: #484848;
+}
+
+.contact_tb tr:nth-child(2n){
+	/* border-top: 2px dotted #FFF; */
+	background: #f5f5f5;
+}
+
+.contact_tb tr:nth-child(2n + 1) {
+    /* border-top: 2px dotted #FFF; */
+    background: #ccc;
+}
+
+.contact_tb tr:first-child{
+	border-top: none;
+}
+
+.contact_tb tr td {
+	padding: 5px 12px 5px 12px;
+	/* background-color: #DBF1F5; */
+}
+
+.contact_tbl th label {
+	cursor: pointer;
+	display: block;
+	padding: 10px 0 0 20px;
+}
+
+.contact_tb dd {
+    /* display: inline-block; */
+    float: left;
+    width: 170px;
+}
+
+input[type="text"], textarea ,select{
+	border: 2px solid #a7a7a7;
+	outline: none;
+	padding: 5px;
+}
+
+input[type="text"]:focus, textarea:focus ,select:focus{
+	border: 2px solid #FAB27F;
+	background: #FFECCD;
+}
+
+input[type="text"] ,select option{
+	height: 24px;
+}
+
+#zip1,#zip2 {
+    width: 100px;
+}
+
+#pref,#city {
+    width: 537px;
+}
+
+#add {
+    width: 569px;
+}
+
+input[type="radio"] {
+	vertical-align: middle;
+}
+
+textarea {
+	vertical-align: middle;
+	padding: 10px 5px;
+}
+
+button, input[type="submit"], input[type="button"] {
+	cursor: pointer;
+}
+
+.error_style {
+	color: #FF0000;
+	display: block;
+}
+
+#name, #kana,#tel,#mail {
+	width: 600px;
+}
+
+#zip {
+	width: 120px;
+}
+
+#address3 {
+	width: 590px;
+}
+
+textarea {
+	width: 590px;
+	height: 150px;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.form_notice1 {
+	font-size: 87.5%;
+}
+
+.choose_list1 {
+	margin: 0 auto 50px auto;
+	width: 390px;
+}
+
+.choose_list1 li {
+	text-align: center;
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+.choose_list1 li:first-child {
+	margin: 0 0 0 0;
+}
+
+.choose_list1 li input, .confirm_bt {
+	border: 0;
+	outline: 0;
+	background: none;
+	color: #FFFFFF;
+	padding: 15px 10px;
+	width: 188px;
+	background-color: #6f6f6f;
+	font-size: 18px;
+}
+
+.choose_list1 li input:hover, button:hover, .toHome:hover {
+	background-color: #f97282;
+}
+
+.send_bt {
+	float: right;
+	margin: 0 275px 0 0;
+	border: 0;
+	outline: 0;
+	background: none;
+	color: #FFFFFF;
+	padding: 15px 10px;
+	width: 218px;
+	background-color: #90C31F;
+	font-size: 18px;
+}
+
+.modification {
+	width: 218px;
+	float: left;
+	margin: 0 0 0 275px;
+	background: none;
+	color: #FFFFFF;
+	padding: 15px 10px;
+	width: 218px;
+	background-color: #90C31F;
+	font-size: 18px;
+}
+
+.contact_tb th em {
+	background: #d80c25;
+	width: 3em;
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	color: #FFFFFF;
+}
+
+
+.toHome {
+	display: block;
+	margin: 0 auto;
+	border: 0;
+	outline: 0;
+	background: none;
+	color: #FFFFFF !important;
+	padding: 15px 0;
+	width: 218px;
+	background-color: #90C31F;
+	font-size: 18px;
+	text-decoration: none !important;
+	text-align: center;
+}
+
+.contact_tb dt{
+	/* font-weight: bold; */
+	/* line-height: 30px; */
+	/* text-align: left; */
+	/* padding: 10px 12px 10px 12px; */
+	/* position: relative; */
+	float: left;
+	width: 100px;
+	line-height: 3;
+}
+
+.contact_tb > li > dl > dt {
+	width: 280px;
+	float: left;
+}
+
+.contact_tb > li > dl > dd {
+	width:672px;
+	float: left;
+}
+
+.contact_tb dd{/* padding: 10px 12px 10px 12px; */}
+
+.contact_tb .tourSelect{
+	
+}
+
+.no_hidden{
+	border: 2px dotted #CCC;
+	margin-bottom: 20px;
+	width:672px;
+}
+
+.no_hidden li{
+	float: left;
+	width: 30%;
+}
+
+.no_hidden dl{
+	margin: 0 auto;
+	width: 275px;
+}
+
+.no_hidden dt{
+	float: none;
+}
+
+.contact_tb p{
+	font-size: 80%;
+}
+
+
+
+.contact_tb .tourSelect dd dd p,
+.contact_tb .tourSelect2 dd p{
+	font-size: 100%;
+	line-height: 30px;
+	vertical-align: bottom;
+	width: 3em;
+	padding: 5px;
+	margin: 5px;
+}
+
+.tourSelect dd dd select,
+.tourSelect dd dd p,
+.contact_tb .tourSelect2 dd select,
+.contact_tb .tourSelect2 dd p{
+	float: left;
+}
+
+.rental li,
+.eyes li{
+	width:33%;
+	float: left;
+}
+
+.contact_tb td span {
+    display: block;
+    font-size: 13px;
+    margin: 5px 0 0 0;
+}
+
+.sizetype1 {
+    width: 600px;
+}
+
+.slectBox > li {
+    display: inline-block;
+}
+
+.sizetype2 {
+    width: 120px;
+}
+

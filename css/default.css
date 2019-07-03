@@ -1,0 +1,20 @@
+@charset "utf-8";
+* {margin: 0;padding: 0;}
+html {overflow-y: scroll; overflow-y: scroll;}
+body {font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;width: 100% !important;}
+table, pre, code, select, input, textarea, kbd, var, ins, del, samp, h1, h2, h3, h4, h5, h6 {font-size: 100%;}
+br {vertical-align: middle;/* FFで改行あるなしで高さが微妙に変わるのを回避 */}
+address,cite,dfn,em,var {font-style: normal;}
+img {border: none; vertical-align: bottom; line-height: 1; -ms-interpolation-mode: bicubic; /* 大きい画像縮小してもキレイ */}
+table {border-spacing: 0; border-collapse: collapse;}
+ul,ol,li {list-style: none;}
+blockquote, q {quotes: none;}
+abbr,acronym {border: 0; font-variant: normal;}
+form label {cursor : pointer;}
+select option {padding : 0 5px;}
+input, textarea{margin: 1px; padding: 2px; line-height: 1;}
+textarea{overflow: auto;}
+input, button, textarea, select, optgroup, option {font-family: inherit; font-size: inherit; font-weight: inherit;}
+a {cursor: pointer;}
+.cf:after { content: " "; display: block; height: 0; font-size: 0; clear: both; visibility: hidden; }
+.cf { *display: block; *zoom: 1;}
