@@ -54,13 +54,13 @@ $(function() {
 });
 
 </script>
-
+<p>FTPでアップロード</p>
 <form id="contactForm" method="POST" enctype="multipart/form-data">
 
 <table class="tb tb2 contact_tb">
 
 <tr>
-<th><label for="name">testお名前<em>必須</em></label></th>
+<th><label for="name">お名前<em>必須</em></label></th>
 <td><input type="text" name="name" value="" id="name" class="txtfiled validate[required]"></td>
 </tr>
 
