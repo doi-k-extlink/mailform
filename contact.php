@@ -54,7 +54,7 @@ $(function() {
 });
 
 </script>
-<p>FTP</p>
+<p>FTPであがれー</p>
 <form id="contactForm" method="POST" enctype="multipart/form-data">
 
 <table class="tb tb2 contact_tb">
